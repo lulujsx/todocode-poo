@@ -1,4 +1,4 @@
-package clases_abstractas;
+package interfaces;
 
 public abstract class Figura {
 	

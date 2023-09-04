@@ -1,7 +1,5 @@
 package clases_abstractas;
 
 public class Principal {
-	public static void main(String[] args) {
-		
-	}
+
 }

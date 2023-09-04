@@ -1,4 +1,4 @@
-package clases_abstractas;
+package interfaces;
 
 public class Principal {
 	public static void main(String[] args) {

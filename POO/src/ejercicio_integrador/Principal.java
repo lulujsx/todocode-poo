@@ -1,0 +1,16 @@
+package ejercicio_integrador;
+
+public class Principal {
+		
+	public static void main(String[] args) {
+		
+		Squirtle squirtle = new Squirtle();
+		Charmander charmander = new Charmander();
+		Pikachu pikachu = new Pikachu();
+		Bulbasaur bulbasaur = new Bulbasaur();
+		squirtle.atacarAraniazo();
+		charmander.atacarAraniazo();
+		pikachu.atacarAraniazo();
+		
+	}
+}

@@ -1,0 +1,32 @@
+package ejercicio_integrador;
+
+public class Charmander extends Pokemon implements IFuego {
+	
+	@Override
+	public void atacarPlacaje() {
+		System.out.println(this.nombre_pokemon + "uso placaje");
+	}
+	@Override
+	public void atacarAraniazo() {
+		System.out.println(this.nombre_pokemon + "uso araniazo");
+	}
+	@Override
+	public void atacarMordisco() {
+		System.out.println(this.nombre_pokemon + "uso mordisco");
+	}
+	@Override
+	public void atacarPunioFuego() {
+		// TODO Auto-generated method stub
+		
+	}
+	@Override
+	public void atacarAscuas() {
+		// TODO Auto-generated method stub
+		
+	}
+	@Override
+	public void atacarLanzallamas() {
+		// TODO Auto-generated method stub
+		
+	}
+}

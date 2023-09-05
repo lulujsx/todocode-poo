@@ -1,0 +1,41 @@
+package ejercicio_integrador;
+
+public class Pikachu extends Pokemon implements IElectrico {
+	
+	public Pikachu() {
+		
+	}
+	
+	@Override
+	public void atacarPlacaje() {
+		System.out.println(this.nombre_pokemon + "uso placaje");
+	}
+	@Override
+	public void atacarAraniazo() {
+		System.out.println(this.nombre_pokemon + "uso araniazo");
+	}
+	@Override
+	public void atacarMordisco() {
+		System.out.println(this.nombre_pokemon + "uso mordisco");
+	}
+	@Override
+	public void atacarImpactrueno() {
+		System.out.println(this.nombre_pokemon + "uso impactrueno");
+		
+	}
+	@Override
+	public void atacarPunioTrueno() {
+		System.out.println(this.nombre_pokemon + "uso punio trueno");
+		
+	}
+	@Override
+	public void atacarRayo() {
+		System.out.println(this.nombre_pokemon + "uso rayo");
+		
+	}
+	@Override
+	public void atacarRayoCarga() {
+		System.out.println(this.nombre_pokemon + "uso rayo carga");
+		
+	}
+}

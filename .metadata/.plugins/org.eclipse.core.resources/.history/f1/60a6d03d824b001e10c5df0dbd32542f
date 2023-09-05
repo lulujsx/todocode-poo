@@ -1,0 +1,43 @@
+package ejercicio_integrador;
+
+public class Squirtle extends Pokemon implements IAgua {
+	
+	public Squirtle() {
+		
+	}
+	
+	@Override
+	public void atacarPlacaje() {
+		System.out.println(this.nombre_pokemon + "uso placaje");
+	}
+	@Override
+	public void atacarAraniazo() {
+		System.out.println(this.nombre_pokemon + "uso araniazo");
+	}
+	@Override
+	public void atacarMordisco() {
+		System.out.println(this.nombre_pokemon + "uso mordisco");
+	}
+	@Override
+	public void atacarHidrobomba() {
+		System.out.println(this.nombre_pokemon + "uso hidrobomba");
+		
+	}
+	@Override
+	public void atacarPistolaAgua() {
+		System.out.println(this.nombre_pokemon + "uso pistola agua");
+		
+	}
+	@Override
+	public void atacarBurbuja() {
+		System.out.println(this.nombre_pokemon + "uso ataque burbuja");
+		
+	}
+	@Override
+	public void atacarHidropulso() {
+		System.out.println(this.nombre_pokemon + "uso Hidropulso");
+		
+	}
+	
+	
+}

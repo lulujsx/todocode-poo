@@ -1,0 +1,18 @@
+package ejercicio_integrador;
+
+public class Bulbasaur extends Pokemon implements IPlanta {
+	
+	@Override
+	public void atacarPlacaje() {
+		System.out.println(this.nombre_pokemon + "uso placaje");
+	}
+	@Override
+	public void atacarAraniazo() {
+		System.out.println(this.nombre_pokemon + "uso araniazo");
+	}
+	@Override
+	public void atacarMordisco() {
+		System.out.println(this.nombre_pokemon + "uso mordisco");
+	}
+	
+}

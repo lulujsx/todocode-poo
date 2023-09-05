@@ -1,0 +1,16 @@
+package ejercicio_integrador;
+
+public abstract class Pokemon {
+	
+	protected int num_pokedex;
+	protected String nombre_pokemon;
+	protected double peso_pokemon;
+	protected String sexo_pokemon;
+	protected int temporada;
+	
+	public abstract String atacarPlacaje();
+	public abstract String atacarAraniazo();
+	public abstract String atacarMordisco();
+	
+	
+}

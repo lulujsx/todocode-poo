@@ -17,10 +17,5 @@ public class Principal {
 		for(int i = 0; i<lista.size();i++) {
 			System.out.println("prueba: " + lista.get(i).getNombre());
 		}
-		
-		//recorrer con foreach
-		for(Persona perso:lista) {
-			System.out.println("prueba: " + perso.getEdad());
-		}
 	}
 }
